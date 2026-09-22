@@ -4,7 +4,7 @@ function doGet() {
   const sh = getSheet_();
   const values = sh.getDataRange().getDisplayValues();
   const data = values.slice(1).filter(r => r[1]).map(r => ({
-    timestamp:r[0], nama:r[1], kelas:r[2], tugasan:r[3], masyarakat:r[4], link:r[5], status:r[6], tp:r[7], catatan:r[8]
+    timestamp:r[0], nama:r[1], kelas:r[2], tugasan:r[3], masyarakat:r[4], link:r[5]
   })).reverse();
   return json_({ok:true,data:data});
 }

@@ -1,0 +1,10 @@
+SELEPAS GITHUB PAGES HIDUP, GANTI 2 PLACEHOLDER:
+
+1. Dalam index.html:
+BORNEO_TASK_URL -> URL halaman tugasan, contoh https://teacherziela.github.io/NAMA-REPO/design-a-borneo-village.html
+
+2. Dalam design-a-borneo-village.html:
+HUB_URL -> URL Hub, contoh https://teacherziela.github.io/NAMA-REPO/
+
+3. Dalam index.html:
+PASTE_APPS_SCRIPT_WEB_APP_URL_HERE -> URL /exec Google Apps Script selepas deploy.
